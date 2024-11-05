@@ -6,7 +6,7 @@ public class Builder {
 
     private int windowWidth;
     private int windowHeight;
-
+    private ColorPallette colorPallette;
     public Builder(){
         
     }
@@ -14,6 +14,10 @@ public class Builder {
     public void setWindowSize(int width, int height){
         this.windowWidth = width;
         this.windowHeight = height;
+    }
+
+    public void setColorPallette(ColorPallette colorPallette){
+        this.colorPallette = colorPallette;
     }
 
     public App build(){
