@@ -1,5 +1,7 @@
 package com.ofbooks.chess.client;
 
+import java.awt.Color;
+
 
 public class ColorPallette {
 
@@ -47,6 +49,6 @@ public class ColorPallette {
     }
 
     public Color getBorderLightHighlightColor(){
-        return this.borderLightHighlight;
+        return this.borderLightHighlightColor;
     }
 }

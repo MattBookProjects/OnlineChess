@@ -18,7 +18,13 @@ public class App {
    }
 
    public void run(){
-     this.currentView = new MainMenuView(this.settings.getWindowWidth(), this.settings.getWindowHeight(), ).toJPanel();
+     this.currentView = new MainMenuView(
+          this.settings.getWindowWidth(), 
+          this.settings.getWindowHeight(), 
+          this.settings.getLargeButtonWidth(),
+          this.settings.getLargeButtonHeight(),
+          this.settings.getColorPallette()
+          ).toJPanel();
      gui.add(currentView);
      this.gui.setVisible(true);
    }

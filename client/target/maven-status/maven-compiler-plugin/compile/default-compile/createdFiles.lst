@@ -1,6 +1,9 @@
-com\ofbooks\chess\client\Builder.class
+com\ofbooks\chess\client\ColorPallette.class
 com\ofbooks\chess\client\App.class
+com\ofbooks\chess\client\View.class
+com\ofbooks\chess\client\ButtonFactory.class
+com\ofbooks\chess\client\Builder.class
 com\ofbooks\chess\client\Settings.class
 com\ofbooks\chess\client\Main.class
 com\ofbooks\chess\client\MainMenuView.class
-com\ofbooks\chess\client\View.class
+com\ofbooks\chess\client\Button.class
