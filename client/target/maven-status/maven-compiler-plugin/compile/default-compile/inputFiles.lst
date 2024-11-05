@@ -3,6 +3,8 @@ C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbook
 C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\colorPallette\ColorPallette.java
 C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\components\Button.java
 C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\components\ButtonFactory.java
+C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\event\listeners\GameHistoryButtonActionListener.java
+C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\event\listeners\PlayButtonActionListener.java
 C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\Main.java
 C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\settings\Settings.java
 C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\view\MainMenuView.java

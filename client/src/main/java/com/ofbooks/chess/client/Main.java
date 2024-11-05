@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args){
         Builder builder = new Builder();
         builder.setWindowSize(1200, 800);
-        builder.setLargeButtonSize(200, 150);
+        builder.setLargeButtonSize(200, 120);
         builder.setColorPallette(
             new ColorPallette(
                 Color.GRAY,
