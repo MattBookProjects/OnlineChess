@@ -8,6 +8,8 @@ public class Builder {
     private int windowHeight;
     private int largeButtonWidth;
     private int largeButtonHeight;
+    private int smallButtonWidth;
+    private int smallButtonHeight;
     private ColorPallette colorPallette;
 
     public Builder(){
@@ -28,6 +30,11 @@ public class Builder {
         this.largeButtonHeight = height;
     }
 
+    public void setSmallButtonSize(int width, int height){
+        this.smallButtonWidth = width;
+        this.smallButtonHeight = height;
+    }
+
     public App build(){
         return new App(
             new Settings(
@@ -35,6 +42,8 @@ public class Builder {
                 this.windowHeight,
                 this.largeButtonWidth,
                 this.largeButtonHeight,
+                this.smallButtonWidth,
+                this.smallButtonHeight,
                 this.colorPallette
             ));
     }

@@ -6,6 +6,7 @@ public class Main {
         Builder builder = new Builder();
         builder.setWindowSize(1200, 800);
         builder.setLargeButtonSize(200, 120);
+        builder.setSmallButtonSize(100, 60);
         builder.setColorPallette(
             new ColorPallette(
                 Color.GRAY,
