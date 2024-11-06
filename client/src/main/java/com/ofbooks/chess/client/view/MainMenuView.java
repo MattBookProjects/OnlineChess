@@ -11,7 +11,8 @@ public class MainMenuView extends View {
         int windowHeight,
         int buttonWidth,
         int buttonHeight,
-        ColorPallette colorPallette
+        ColorPallette colorPallette,
+        int language
     ){
         this.panel = new JPanel();
         this.panel.setLayout(null);
@@ -27,8 +28,8 @@ public class MainMenuView extends View {
             colorPallette.getBorderHighlighColor(),
             colorPallette.getBorderLightHighlightColor()
         );
-        Button playButton = buttonFactory.createButton("PLAY", new PlayButtonActionListener(app));
-        Button gameHistoryButton = buttonFactory.createButton("GAME HISTORY", new GameHistoryButtonActionListener(app));
+        Button playButton = buttonFactory.createButton(Translator.NEW_GAME.translate(language), new PlayButtonActionListener(app));
+        Button gameHistoryButton = buttonFactory.createButton(Translator.GAMES_PLAYED.translate(language), new GameHistoryButtonActionListener(app));
         playButton.setBounds((windowWidth - buttonWidth)/2, 100, buttonWidth, buttonHeight);
         gameHistoryButton.setBounds((windowWidth - buttonWidth)/2, 150 + buttonHeight, buttonWidth, buttonHeight);
         this.panel.add(playButton);

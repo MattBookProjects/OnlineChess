@@ -8,9 +8,13 @@ C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbook
 C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\event\listeners\PlayButtonActionListener.java
 C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\event\listeners\PlayOnlineButtonActionListener.java
 C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\event\listeners\PlayVsComputerButtonActionListener.java
+C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\language\Language.java
 C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\Main.java
+C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\phrase\Phrase.java
 C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\settings\Settings.java
+C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\translator\Translator.java
 C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\view\MainMenuView.java
 C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\view\PlayMenuView.java
+C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\view\SearchingForOpponentView.java
 C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\view\View.java
 C:\Users\Mateusz\Desktop\programming\OnlineChess\client\src\main\java\com\ofbooks\chess\client\view\ViewFactory.java

@@ -16,6 +16,7 @@ public class Main {
                 Color.LIGHT_GRAY,
                 Color.YELLOW
             ));
+        builder.setLanguage(Language.DE);
         App app = builder.build();
         app.run();
     }

@@ -11,6 +11,7 @@ public class Builder {
     private int smallButtonWidth;
     private int smallButtonHeight;
     private ColorPallette colorPallette;
+    private int language;
 
     public Builder(){
         
@@ -35,6 +36,10 @@ public class Builder {
         this.smallButtonHeight = height;
     }
 
+    public void setLanguage(int language){
+        this.language = language;
+    }
+
     public App build(){
         return new App(
             new Settings(
@@ -44,7 +49,8 @@ public class Builder {
                 this.largeButtonHeight,
                 this.smallButtonWidth,
                 this.smallButtonHeight,
-                this.colorPallette
+                this.colorPallette,
+                this.language
             ));
     }
 }

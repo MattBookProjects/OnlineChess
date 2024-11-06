@@ -4,55 +4,35 @@ package com.ofbooks.chess.client;
 public class ViewFactory {
 
     private App app;
-    private int windowWidth;
-    private int windowHeight;
-    private int largeButtonWidth;
-    private int largeButtonHeight;
-    private int smallButtonWidth;
-    private int smallButtonHeight;
-    private ColorPallette colorPallette;
+    private Settings settings;
 
-    public ViewFactory(
-        App app,
-        int windowWidth, 
-        int windowHeight,
-        int largeButtonWidth,
-        int largeButtonHeight,
-        int smallButtonWidth,
-        int smallButtonHeight,
-        ColorPallette colorPallette
-        ){
-            this.app = app;
-            this.windowWidth = windowWidth;
-            this.windowHeight = windowHeight;
-            this.largeButtonWidth = largeButtonWidth;
-            this.largeButtonHeight = largeButtonHeight;
-            this.smallButtonWidth = smallButtonWidth;
-            this.smallButtonHeight = smallButtonHeight;
-            this.colorPallette = colorPallette;
-        }
+    public ViewFactory(App app, Settings settings){
+        this.app = app;
+        this.settings = settings;
+    }
 
     public View createMainMenuView(){
         return new MainMenuView(
             this.app,
-            this.windowWidth,
-            this.windowHeight,
-            this.largeButtonWidth,
-            this.largeButtonHeight,
-            this.colorPallette
+            this.settings.getWindowWidth(),
+            this.settings.getWindowHeight(),
+            this.settings.getLargeButtonWidth(),
+            this.settings.getLargeButtonHeight(),
+            this.settings.getColorPallette(),
+            this.settings.getLanguage()
         );
     }
 
     public View createPlayMenuView(){
         return new PlayMenuView(
             this.app,
-            this.windowWidth,
-            this.windowHeight,
-            this.largeButtonWidth,
-            this.largeButtonHeight,
-            this.smallButtonWidth,
-            this.smallButtonHeight,
-            this.colorPallette
+            this.settings.getWindowWidth(),
+            this.settings.getWindowHeight(),
+            this.settings.getLargeButtonWidth(),
+            this.settings.getLargeButtonHeight(),
+            this.settings.getSmallButtonWidth(),
+            this.settings.getSmallButtonHeight(),
+            this.settings.getColorPallette()
         );
     }
 }

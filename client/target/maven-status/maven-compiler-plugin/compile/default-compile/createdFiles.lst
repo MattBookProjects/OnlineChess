@@ -1,7 +1,11 @@
+com\ofbooks\chess\client\Language.class
 com\ofbooks\chess\client\ColorPallette.class
 com\ofbooks\chess\client\GameHistoryButtonActionListener.class
 com\ofbooks\chess\client\ButtonFactory.class
+com\ofbooks\chess\client\Phrase.class
 com\ofbooks\chess\client\PlayMenuView.class
+com\ofbooks\chess\client\SearchingForOpponentView.class
+com\ofbooks\chess\client\Translator.class
 com\ofbooks\chess\client\PlayVsComputerButtonActionListener.class
 com\ofbooks\chess\client\PlayOnlineButtonActionListener.class
 com\ofbooks\chess\client\Settings.class

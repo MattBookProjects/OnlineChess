@@ -10,6 +10,7 @@ public class Settings{
     private int smallButtonWidth;
     private int smallButtonHeight;
     private ColorPallette colorPallette;
+    private int language;
 
     public Settings(
         int windowWidth, 
@@ -18,7 +19,8 @@ public class Settings{
         int largeButtonHeight,
         int smallButtonWidth,
         int smallButtonHeight,
-        ColorPallette colorPallette
+        ColorPallette colorPallette,
+        int language
     ){
         this.windowWidth = windowWidth;
         this.windowHeight = windowHeight;
@@ -27,6 +29,7 @@ public class Settings{
         this.smallButtonWidth = smallButtonWidth;
         this.smallButtonHeight = smallButtonHeight;
         this.colorPallette = colorPallette;
+        this.language = language;
         
     }
 
@@ -56,6 +59,10 @@ public class Settings{
 
     public ColorPallette getColorPallette(){
         return this.colorPallette;
+    }
+
+    public int getLanguage(){
+        return this.language;
     }
 
 }

@@ -16,16 +16,7 @@ public class App {
           this.gui = new JFrame();
           this.gui.setSize(settings.getWindowWidth(), settings.getWindowHeight());
           this.gui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-          this.viewFactory = new ViewFactory(
-               this,
-               settings.getWindowWidth(),
-               settings.getWindowHeight(),
-               settings.getLargeButtonWidth(),
-               settings.getLargeButtonHeight(),
-               settings.getSmallButtonWidth(),
-               settings.getSmallButtonHeight(),
-               settings.getColorPallette()
-          );
+          this.viewFactory = new ViewFactory(this, this.settings);
 
      }
 
